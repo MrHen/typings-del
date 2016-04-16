@@ -2,11 +2,13 @@
   "name": "del",
   "main": "index.d.ts",
   "homepage": "https://github.com/sindresorhus/del",
-  "version": "",
   "devDependencies": {
     "blue-tape": "registry:npm/blue-tape#0.1.0+20160322235613"
   },
   "ambientDevDependencies": {
     "node": "registry:dt/node#4.0.0+20160319033040"
+  },
+  "dependencies": {
+    "pinkie-promise": "registry:npm/pinkie-promise#1.0.0+20160211003958"
   }
 }
