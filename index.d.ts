@@ -6,9 +6,9 @@ declare namespace del {
     dryRun?: boolean;
   }
 
-  export function sync(patterns: string | string[], opts?): Promise<string[]>;
+  export function sync(patterns: string | string[], opts?: Options): Promise<string[]>;
 }
 
-declare function del(patterns: string | string[], opts?): Promise<string[]>;
+declare function del(patterns: string | string[], opts?: del.Options): Promise<string[]>;
 
 export = del;
